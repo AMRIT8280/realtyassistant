@@ -1,0 +1,156 @@
+@media screen and (min-width:1366px)
+
+{
+	.container {
+		max-width: 1300px;
+	}
+}
+
+@media screen and (max-width:1365px)
+
+{
+}
+
+
+@media screen and (max-width:1200px)
+
+{
+	.header_slider_area_text_area h2
+	{
+		font-size: 70px;
+	}
+}
+
+@media screen and (max-width:1100px)
+{
+
+}
+
+@media screen and (max-width:1050px)
+
+{
+
+}
+
+
+
+@media screen and (max-width:992px)
+
+{
+	.buy_payment_area .cc-field {
+
+		display: block;
+	}
+	.buy_right_area
+	{
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width:850px)
+
+{
+
+}
+
+@media screen and (max-width:768px)
+
+{
+.logo_and_menu_section
+{
+	position: relative;
+}
+.header_slider_area_text_area 
+{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.header_slider_area_text_area h2
+{
+	font-size: 40px;
+}
+.header_slider_area_text_area h3
+{
+	font-size: 30px;
+}
+
+.header_slider_area_text_area p
+{
+	font-size: 15px;
+}
+.header_slider_area_img_area img
+{
+	height: 500px;
+}
+.section2 .main_heading h2 {
+	text-align: center;
+}
+.section1_bottom_box1_img_area h2
+{
+	font-size: 25px;
+}
+.booking_top_area .right
+{
+	text-align: left;
+	margin-top: 5px;
+}
+.booking_bottom_area .right
+{
+	text-align: left;
+	margin-top: 5px;
+}
+.buy_bottom_area .right
+{
+	text-align: left;
+}
+}
+
+
+@media screen and (max-width:600px)
+
+{
+
+}
+
+
+
+@media screen and (max-width:576px)
+
+{
+
+}
+
+
+@media screen and (max-width:480px)
+
+{
+
+}
+
+@media screen and (max-width:400px)
+
+{
+.logo_area
+{
+	width: 100%;
+	text-align: center;
+}
+.logo_right_area
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 12px;
+}
+.logo_right_area a
+{
+	margin: 0 5px;
+}
+.group_box
+{
+	right: inherit;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+}
