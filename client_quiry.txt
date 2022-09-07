@@ -1,0 +1,14 @@
+payemnt gateway : terms and condition 
+frony page banner: subtitle repeat 
+tileing, customer reviews pictures 
+customer payment : Auto generated emial confirmation to the customer 
+
+I have read and agree to the Terms and Conditions
+
+
+title and subtitle is same when putting different content
+no pictures in customer review while mandatory to upload
+terms and condition link is still # , while uploaded the content and in active stage
+need this page on payment gatway also
+need an auto generated email on customer sign up, and booking
+Payment is getting failed too

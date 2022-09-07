@@ -1,0 +1,34 @@
+RewriteEngine On
+IndexIgnore *
+
+ErrorDocument 404 /index.php
+
+Options -MultiViews
+RewriteEngine On
+
+
+
+RewriteRule ^home$ index.php  [L]
+RewriteRule ^signin$ sign_in.php  [L]
+RewriteRule ^signup$ sign_up.php  [L]
+
+
+
+
+RewriteRule ^profile$ profile.php  [L]
+RewriteRule ^forgot_pass$ forgot_pass.php  [L]
+RewriteRule ^my_booking$ my_booking.php [L]
+RewriteRule ^Terms-and-Conditions$ Terms-and-Conditions.php [L]
+RewriteRule ^logout$ logout.php [L]
+
+RewriteRule ^pay-now/(.*)/(.*)/(.*)$ online_pay_now.php?ap_slug=$1&room_id=$2&token=$3  [L]
+
+RewriteRule ^booking/([^/]*)$ booking.php?ap_slug=$1  [L]
+RewriteRule ^booking/([^/]*)/([^/]*)$ booking.php?ap_slug=$1&agent_code=$2  [L]
+
+RewriteRule ^buy/(.*)$ buy.php?ap_slug=$1  [L]
+
+
+
+
+#RewriteRule ^booking/([^/]*)/([^/]*)$ category-details.php?token=$1&keyword=$2  [L]
